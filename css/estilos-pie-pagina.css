@@ -1,0 +1,21 @@
+#informacion-pagina section{
+  border-radius: 10px;
+  width: 400px;
+  font-family: "Crafty Girls";
+  margin: 1%;
+}
+.redes-sociales img{
+  width: 5%;
+  font-family: "Crafty Girls";
+}
+#derechos img{
+  width: 5%;
+  font-family: "Crafty Girls";
+}
+#informacion-pagina{
+  display: flex;
+  flex-direction: row;
+  background-color: #C6d5c5;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:  10px;
+}

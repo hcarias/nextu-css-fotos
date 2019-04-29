@@ -1,0 +1,38 @@
+#contenedor-menu section{
+  margin: 1%;
+}
+#contenedor-menu{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: wrap;
+}
+header{
+  font-family: "Crafty Girls";
+  background-color: #5b7989;
+}
+.retrato{
+  flex-grow: 1;
+  text-align: center;
+  width: 7%;
+  color: white !important;
+}
+.paisajes{
+  flex-grow: 1;
+  text-align: center;
+  width: 5%;
+  color: white !important;
+}
+.inicio{
+  flex-grow: 1;
+  text-align:center;
+  width: 5%;
+  color: white !important;
+}
+.nombre-pagina{
+  flex-grow: 20;
+  text-align: left;
+  color: white;
+}
+.nombre-pagina h1{
+  margin-left: 5%;
+}

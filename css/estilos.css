@@ -1,0 +1,21 @@
+img{
+  border-radius: 3%;
+}
+#img-retrato-paisajes{
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+}
+#img-retrato-paisajes section{
+  margin: 1%;
+}
+#img-tikal{
+  background-color: #82c3a6;
+}
+#img-tikal img{
+  margin-right: 12%;
+  margin-left: 12%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 1000px;
+}
