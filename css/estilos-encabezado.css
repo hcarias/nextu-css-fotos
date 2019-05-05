@@ -1,38 +1,62 @@
-#contenedor-menu section{
-  margin: 1%;
-}
-#contenedor-menu{
-  display: flex;
-  flex-direction: row-reverse;
-  flex-grow: wrap;
-}
 header{
   font-family: "Crafty Girls";
   background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.retrato{
-  flex-grow: 1;
-  text-align: center;
-  width: 7%;
-  color: white !important;
+
+@media screen and (max-width: 1500px){
+  #contenedor-menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .nombre-pagina{
+    text-align: left !important;
+    color: white;
+    font-size: 150% !important;
+    width: 70% !important;
+  }
+  .nombre-pagina h1{
+    margin-left: 5%;
+    text-shadow: 2px 2px 0 #02010a;
+  }
+  .menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .menu section{
+    margin-top: 5%;
+    margin-left: 30%;
+    color: white;
+  }
+  .menu section h2{
+    font-size: 120%;
+  }
+  #contenedor-menu section{
+    text-align: center;
+    width: 20%;
+    color: white;
+    font-size: 100%;
+  }
 }
-.paisajes{
-  flex-grow: 1;
-  text-align: center;
-  width: 5%;
-  color: white !important;
-}
-.inicio{
-  flex-grow: 1;
-  text-align:center;
-  width: 5%;
-  color: white !important;
-}
-.nombre-pagina{
-  flex-grow: 20;
-  text-align: left;
-  color: white;
-}
-.nombre-pagina h1{
-  margin-left: 5%;
+
+@media screen and (max-width: 600px){
+  #contenedor-menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .nombre-pagina h1{
+    color: white;
+    font-size: 70%;
+    text-align: center;
+    width: 100%;
+  }
+  .menu{
+    width: 100%;
+  }
+  .menu section{
+    margin-left: 8%;
+    text-align: center;
+    font-size: 50%;
+  }
 }

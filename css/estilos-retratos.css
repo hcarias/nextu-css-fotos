@@ -5,6 +5,7 @@ body{
   display: flex;
   flex-direction: row;
 }
+
 #grupo1-retratos section{
   flex-grow: 1;
   width: 40%;
@@ -13,16 +14,22 @@ body{
   width: 95%;
   margin-left: 2%;
   margin-top: 1%;
+  -webkit-filter: blur(10px);
+  	filter: blur(10px);
 }
 #fati img{
   width: 70%;
   margin-left: 15%;
   margin-top: 1%;
+  -webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
 }
 #foto-amigos img{
   width: 70%;
   margin-left: 15%;
   margin-top: 1%;
+  -webkit-filter:sepia(90%);
+	filter:sepia(90%);
 }
 #grupo2-retratos{
   display: flex;
@@ -36,6 +43,8 @@ body{
   width: 85%;
   margin-left: 8%;
   margin-top: 1%;
+  -webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
 }
 #llavero img{
   width: 95%;
@@ -46,6 +55,8 @@ body{
   width: 95%;
   margin-left: 3%;
   margin-top: 20%;
+  -webkit-filter: grayscale(100%);
+	filter:grayscale(100%);
 }
 #grupo1-retratos section:hover {
 background: white;
