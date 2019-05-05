@@ -14,7 +14,7 @@ header{
     text-align: left !important;
     color: white;
     font-size: 150% !important;
-    width: 70% !important;
+    width: 63% !important;
   }
   .nombre-pagina h1{
     margin-left: 5%;
@@ -26,11 +26,11 @@ header{
   }
   .menu section{
     margin-top: 5%;
-    margin-left: 30%;
+    margin-left: 25%;
     color: white;
   }
   .menu section h2{
-    font-size: 120%;
+    font-size: 100%;
   }
   #contenedor-menu section{
     text-align: center;
@@ -40,7 +40,7 @@ header{
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
   #contenedor-menu{
     display: flex;
     flex-direction: column;

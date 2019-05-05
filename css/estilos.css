@@ -1,21 +1,43 @@
-img{
-  border-radius: 3%;
+
+@media screen and (max-width: 1500px){
+    #img-retrato-paisajes{
+      display: flex;
+      flex-direction: row;
+      background-color: #d5c75f;
+    }
+    #img-retrato-paisajes section{
+      margin: 1%;
+    }
+    #img-tikal{
+      background-color: #82c3a6;
+    }
+    #img-tikal img{
+      margin-right: 8%;
+      margin-left: 5%;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      width: 90%;
+    }
+    img{
+      border-radius: 3%;
+      width: 90%;
+    }
+    #img-retrato-paisajes section{
+      text-align: center;
+    }
 }
-#img-retrato-paisajes{
-  display: flex;
-  flex-direction: row;
-  background-color: #d5c75f;
-}
-#img-retrato-paisajes section{
-  margin: 1%;
-}
-#img-tikal{
-  background-color: #82c3a6;
-}
-#img-tikal img{
-  margin-right: 12%;
-  margin-left: 12%;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  width: 1000px;
+@media screen and (max-width: 800px){
+  #img-retrato-paisajes{
+    display: flex;
+    flex-direction: column;
+    background-color: #d5c75f;
+  }
+  #img-tikal img{
+    margin-left: 2.5%;
+    width: 95%;
+  }
+  img{
+    width: 100%;
+  }
+
 }
