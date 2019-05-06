@@ -1,4 +1,3 @@
-
 @media screen and (max-width: 1500px){
   #informacion-pagina section{
     border-radius: 10px;
@@ -25,7 +24,7 @@
     font-size: 80%;
   }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   #informacion-pagina{
     display: flex;
     flex-direction: column;

@@ -21,16 +21,22 @@ background: white;
     width:94%;
     margin-left: 3%;
     margin-top: 0.5%;
+    -webkit-filter: blur(10px);
+  	filter: blur(10px);
   }
   #tikal img{
     width: 86%;
     margin-left: 7%;
     margin-top: 0.5%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
   }
   #volcan img{
     width: 70%;
     margin-left: 16%;
     margin-top: 0.5%;
+    -webkit-filter:sepia(90%);
+  	filter:sepia(90%);
   }
   #grupo2-paisajes{
     display: flex;
@@ -44,19 +50,23 @@ background: white;
     width: 90%;
     margin-left: 5%;
     margin-top: 1%;
-  }
-  #atitlan img{
-    width: 68%;
-    margin-left: 16%;
-    margin-top: 1%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
   }
   #Cenote-de-Candelaria img{
     width: 80%;
     margin-left: 10%;
     margin-top: 1%;
   }
+  #atitlan img{
+    width: 68%;
+    margin-left: 16%;
+    margin-top: 1%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
+  }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   #grupo1-paisajes{
     display: flex;
     flex-direction: column;

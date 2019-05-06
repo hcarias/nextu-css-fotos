@@ -1,9 +1,38 @@
+#img-retrato-paisajes #img-paisajes img:hover {
+  animation: rotacion-imagen 1s;
+}
+@keyframes rotacion-imagen {
+	0% {
+		transform: rotate(10deg);
+	}
+  25% {
+		transform: rotate(5deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+  50% {
+		transform: rotate(-5deg);
+	}
+	100% {
+		transform: rotate(-10deg);
+	}
+}
+#img-retrato-paisajes #img-retrato img{
+  transition: transform, 2s;
+
+}
+#img-retrato-paisajes #img-retrato img:hover {
+  transform: translate(5px,-20px);
+  border: 2px;
+}
 
 @media screen and (max-width: 1500px){
     #img-retrato-paisajes{
       display: flex;
       flex-direction: row;
       background-color: #d5c75f;
+      shadow:#82c3a6;
     }
     #img-retrato-paisajes section{
       margin: 1%;
@@ -21,12 +50,13 @@
     img{
       border-radius: 3%;
       width: 90%;
+      border: 2px;
     }
     #img-retrato-paisajes section{
       text-align: center;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   #img-retrato-paisajes{
     display: flex;
     flex-direction: column;
@@ -39,5 +69,4 @@
   img{
     width: 100%;
   }
-
 }
