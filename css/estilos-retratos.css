@@ -1,74 +1,102 @@
 body{
   background-color: #d5c75f;
 }
-#grupo1-retratos{
-  display: flex;
-  flex-direction: row;
-}
 
-#grupo1-retratos section{
-  flex-grow: 1;
-  width: 40%;
-}
-#chica img{
-  width: 95%;
-  margin-left: 2%;
-  margin-top: 1%;
-  -webkit-filter: blur(10px);
-  	filter: blur(10px);
-}
-#fati img{
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 1%;
-  -webkit-filter: grayscale(100%);
-	filter:grayscale(100%);
-}
-#foto-amigos img{
-  width: 70%;
-  margin-left: 15%;
-  margin-top: 1%;
-  -webkit-filter:sepia(90%);
-	filter:sepia(90%);
-}
-#grupo2-retratos{
-  display: flex;
-  flex-direction: row;
-}
-#grupo2-retratos section{
-  flex-grow: 1;
-  width: 40%;
-}
-#foto-bella img{
-  width: 85%;
-  margin-left: 8%;
-  margin-top: 1%;
-  -webkit-filter: grayscale(100%);
-	filter:grayscale(100%);
-}
-#llavero img{
-  width: 95%;
-  margin-left: 2%;
-  margin-top: 1%;
-}
-#nina-flores img{
-  width: 95%;
-  margin-left: 3%;
-  margin-top: 20%;
-  -webkit-filter: grayscale(100%);
-	filter:grayscale(100%);
-}
-#grupo1-retratos section:hover {
-background: white;
-width: 50%;
-}
-#grupo2-retratos section:hover {
-  background: white;
-  width: 50%;
-}
 #grupo1-retratos section > img{
   border-radius: 5%;
 }
 #grupo2-retratos section > img{
   border-radius: 5%;
+}
+@media screen and (max-width: 1500px){
+  #grupo1-retratos{
+    display: flex;
+    flex-direction: row;
+  }
+  #grupo1-retratos section{
+    flex-grow: 1;
+    width: 40%;
+  }
+  #chica img{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 1%;
+    -webkit-filter: blur(10px);
+  	filter: blur(10px);
+  }
+  #princesa img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
+  }
+  #foto-amigos img{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 1%;
+    -webkit-filter:sepia(90%);
+  	filter:sepia(90%);
+  }
+  #grupo2-retratos{
+    display: flex;
+    flex-direction: row;
+  }
+  #grupo2-retratos section{
+    flex-grow: 1;
+    width: 40%;
+  }
+  #foto-bella img{
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 1%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
+  }
+  #llavero img{
+    width: 95%;
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  #nina-flores img{
+    width: 95%;
+    margin-left: 3%;
+    margin-top: 20%;
+    -webkit-filter: grayscale(100%);
+  	filter:grayscale(100%);
+  }
+  #grupo1-retratos section:hover {
+  background: white;
+  width: 50%;
+  }
+  #grupo2-retratos section:hover {
+    background: white;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px){
+  #grupo1-retratos{
+    display: flex;
+    flex-direction: column;
+  }
+  #grupo2-retratos{
+    display: flex;
+    flex-direction: column;
+  }
+  #grupo1-retratos section{
+    flex-grow: 1;
+    width: 100%;
+  }
+  #grupo2-retratos section{
+    flex-grow: 1;
+    width: 100%;
+  }
+  #grupo1-retratos section:hover {
+  background: white;
+  width: 100%;
+  }
+  #grupo2-retratos section:hover {
+    background: white;
+    width: 100%;
+  }
 }
